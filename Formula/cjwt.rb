@@ -2,16 +2,16 @@
 class Cjwt < Formula
   desc "tool for inspecting jwts"
   homepage "https://github.com/aricart/cjwt"
-  version "1.0.5"
+  version "1.0.6"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/aricart/cjwt/releases/download/v1.0.5/cjwt-darwin-amd64.zip"
-    sha256 "d97d2ce80cc98427ccf3d275f57f6fb65c5d884a8b367e039e12e72466e156d9"
+    url "https://github.com/aricart/cjwt/releases/download/v1.0.6/cjwt-darwin-amd64.zip"
+    sha256 "a58cf282e35f4933be52651d595c55758a1eb74772b7fe97c94c1a499d871c03"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/aricart/cjwt/releases/download/v1.0.5/cjwt-linux-amd64.zip"
-      sha256 "3cf2b7cdc296ff568941d6ec93f52aa56d65d7a8625b8736d81259283da88424"
+      url "https://github.com/aricart/cjwt/releases/download/v1.0.6/cjwt-linux-amd64.zip"
+      sha256 "7ddc94767dcb4489c01b7bf99684c4fce17a73d5519a743bf53f383eb0cf1607"
     end
   end
 
