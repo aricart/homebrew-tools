@@ -7,11 +7,11 @@ class Cjwt < Formula
 
   if OS.mac?
     url "https://github.com/aricart/cjwt/releases/download/v1.0.0/cjwt-darwin-amd64.zip"
-    sha256 "9a80d062b8dd187e2325170552ce90b9bba2f963c30db23ce80b6d7c527b0ccf"
+    sha256 "ed78fd63736f757bd7b30d2f5be8429d26e4f5ce40d83dbc5391a931c7e309d5"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/aricart/cjwt/releases/download/v1.0.0/cjwt-linux-amd64.zip"
-      sha256 "e2da02c951694a6d5828baa279e4dfda56d862ec5c8e20b1708e0146010e8991"
+      sha256 "8fe6f4a3cd408a123d0ade173e85de74c2cd04b23ef0f416114426facc607eca"
     end
   end
 
