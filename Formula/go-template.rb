@@ -2,16 +2,16 @@
 class GoTemplate < Formula
   desc "go-template description"
   homepage "https://github.com/aricart/go-template"
-  version "0.0.1"
+  version "0.0.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/aricart/go-template/releases/download/v0.0.1/go-template-darwin-amd64.zip"
-    sha256 "1d10471a0c2ca366301042d4bbe69d5ef5052d537a24e5f3f4cbba90a5cf22e6"
+    url "https://github.com/aricart/go-template/releases/download/v0.0.2/go-template-darwin-amd64.zip"
+    sha256 "70f1f2c9c97e84bea2873949970aee1e8db7bd291453e6fca1ce551417661c58"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/aricart/go-template/releases/download/v0.0.1/go-template-linux-amd64.zip"
-      sha256 "ede55cc3ef5d5e98eab811cd6a2b6198d4c5a9c7a121c958bb7f225a7180651f"
+      url "https://github.com/aricart/go-template/releases/download/v0.0.2/go-template-linux-amd64.zip"
+      sha256 "407fc8eaa2385064886364a51da09a1c57c6a91d5c8832f49f84833d69bab9bf"
     end
   end
 
